@@ -11,11 +11,65 @@
 @implementation AppDelegate
 
 @synthesize window = _window;
+@synthesize btPairs;
+@synthesize filePath;
+@synthesize delegate;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    //create filePath
+    NSLog(@" create filePath");
+    NSArray *paths=NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *directory=[paths objectAtIndex:0];
+    filePath=[[NSString alloc] initWithString:[directory stringByAppendingPathComponent:@"btPairs"]];
+    
+    //retrieve file if there exists
+    NSFileManager *fileMgr=[NSFileManager defaultManager];
+    if ([fileMgr fileExistsAtPath:filePath]) {
+        btPairs=[[NSMutableArray alloc] initWithContentsOfFile:filePath];
+        NSLog(@"# of btPairs: %d",[btPairs count]);
+    }else {
+        NSLog(@"init btPairs");
+        btPairs=[[NSMutableArray alloc] init];
+    }
+
+    
     return YES;
+}
+
+-(BOOL)addToBtPairs:(NSDictionary *)obj atIndex:(NSInteger)index{
+    
+    if (index < 0) {//it is a new item
+       [btPairs addObject:obj]; 
+    }else {
+        [btPairs replaceObjectAtIndex:index withObject:obj];
+    }
+    
+    if([btPairs writeToFile:filePath atomically:YES]) {
+        NSLog(@"writeToFile succeed");
+        [delegate addTile:obj atIndex:index];
+        return true;
+    }
+    else{
+        NSLog(@"writeToFile failed");
+        return false;
+    }
+}
+
+-(BOOL)deleteFromBtPairs:(NSInteger)index{
+    
+    NSLog(@"delete object at %d", index);
+    [btPairs removeObjectAtIndex:index];
+    if ([btPairs writeToFile:filePath atomically:YES]) {
+        NSLog(@"write to file succeed");
+        [delegate deleteTile:index];
+        return true;
+    }else {
+        NSLog(@"write to file failed");
+        return false;
+    }
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -44,5 +98,7 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+
 
 @end

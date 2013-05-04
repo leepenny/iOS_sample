@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C503219215774C7400F8A84F /* EditView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C503219115774C7400F8A84F /* EditView.xib */; };
+		C5281858157CC473002E46F2 /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = C5281853157CC472002E46F2 /* Tile.m */; };
+		C5281859157CC473002E46F2 /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = C5281853157CC472002E46F2 /* Tile.m */; };
+		C528185A157CC473002E46F2 /* CALayer+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C5281855157CC472002E46F2 /* CALayer+Additions.m */; };
+		C528185B157CC473002E46F2 /* CALayer+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C5281855157CC472002E46F2 /* CALayer+Additions.m */; };
+		C528185C157CC473002E46F2 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C5281857157CC472002E46F2 /* NSString+Additions.m */; };
+		C528185D157CC473002E46F2 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C5281857157CC472002E46F2 /* NSString+Additions.m */; };
+		C5281860157CC49B002E46F2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C528185F157CC49B002E46F2 /* QuartzCore.framework */; };
+		C5281863157CCFDC002E46F2 /* CheckScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5281862157CCFDC002E46F2 /* CheckScrollView.m */; };
+		C5281864157CCFDC002E46F2 /* CheckScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5281862157CCFDC002E46F2 /* CheckScrollView.m */; };
 		C598AB7F1575CB9200880448 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C598AB7E1575CB9200880448 /* UIKit.framework */; };
 		C598AB811575CB9200880448 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C598AB801575CB9200880448 /* Foundation.framework */; };
 		C598AB831575CB9200880448 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C598AB821575CB9200880448 /* CoreGraphics.framework */; };
@@ -14,17 +24,21 @@
 		C598AB8B1575CB9200880448 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C598AB8A1575CB9200880448 /* main.m */; };
 		C598AB8F1575CB9200880448 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C598AB8E1575CB9200880448 /* AppDelegate.m */; };
 		C598AB921575CB9200880448 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C598AB901575CB9200880448 /* MainStoryboard.storyboard */; };
-		C598AB951575CB9200880448 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C598AB941575CB9200880448 /* FirstViewController.m */; };
-		C598AB971575CB9200880448 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = C598AB961575CB9200880448 /* first.png */; };
-		C598AB991575CB9300880448 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C598AB981575CB9200880448 /* first@2x.png */; };
-		C598AB9C1575CB9300880448 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C598AB9B1575CB9300880448 /* SecondViewController.m */; };
-		C598AB9E1575CB9300880448 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = C598AB9D1575CB9300880448 /* second.png */; };
-		C598ABA01575CB9300880448 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C598AB9F1575CB9300880448 /* second@2x.png */; };
 		C598ABA81575CB9300880448 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C598ABA71575CB9300880448 /* SenTestingKit.framework */; };
 		C598ABA91575CB9300880448 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C598AB7E1575CB9200880448 /* UIKit.framework */; };
 		C598ABAA1575CB9300880448 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C598AB801575CB9200880448 /* Foundation.framework */; };
 		C598ABB21575CB9300880448 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C598ABB01575CB9300880448 /* InfoPlist.strings */; };
 		C598ABB51575CB9300880448 /* FriendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C598ABB41575CB9300880448 /* FriendTests.m */; };
+		C598ABBF1575CBE100880448 /* painter-57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = C598ABBE1575CBE100880448 /* painter-57x57.png */; };
+		C598ABC81575CED500880448 /* CheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C598ABC71575CED500880448 /* CheckViewController.m */; };
+		C598ABCB1575D13B00880448 /* DeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C598ABCA1575D13B00880448 /* DeviceViewController.m */; };
+		C598ABCE1575D1B100880448 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C598ABCD1575D1B100880448 /* SettingViewController.m */; };
+		C598ABD51575F5BA00880448 /* camera-gray-57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = C598ABD41575F5BA00880448 /* camera-gray-57x57.png */; };
+		C598ABD71575F5E900880448 /* looking1.png in Resources */ = {isa = PBXBuildFile; fileRef = C598ABD61575F5E900880448 /* looking1.png */; };
+		C598ABDA1575F86900880448 /* AddDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C598ABD91575F86800880448 /* AddDeviceViewController.m */; };
+		C5A18E2D1576156B007DAEF2 /* find-128x128.png in Resources */ = {isa = PBXBuildFile; fileRef = C5A18E2C1576156B007DAEF2 /* find-128x128.png */; };
+		C5A18E3115762424007DAEF2 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A18E3015762424007DAEF2 /* EditViewController.m */; };
+		C5DF8CB315889DE000ED5368 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DF8CB215889DE000ED5368 /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,31 +52,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C503219115774C7400F8A84F /* EditView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditView.xib; sourceTree = "<group>"; };
+		C5281852157CC472002E46F2 /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
+		C5281853157CC472002E46F2 /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
+		C5281854157CC472002E46F2 /* CALayer+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Additions.h"; sourceTree = "<group>"; };
+		C5281855157CC472002E46F2 /* CALayer+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Additions.m"; sourceTree = "<group>"; };
+		C5281856157CC472002E46F2 /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		C5281857157CC472002E46F2 /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
+		C528185F157CC49B002E46F2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C5281861157CCFDC002E46F2 /* CheckScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckScrollView.h; sourceTree = "<group>"; };
+		C5281862157CCFDC002E46F2 /* CheckScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckScrollView.m; sourceTree = "<group>"; };
 		C598AB7A1575CB9200880448 /* Friend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C598AB7E1575CB9200880448 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C598AB801575CB9200880448 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C598AB821575CB9200880448 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C598AB861575CB9200880448 /* Friend-Info.plist */ = {isa = PBXFileReference; path = "Friend-Info.plist"; sourceTree = "<group>"; };
+		C598AB861575CB9200880448 /* Friend-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Friend-Info.plist"; sourceTree = "<group>"; };
 		C598AB881575CB9200880448 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C598AB8A1575CB9200880448 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C598AB8C1575CB9200880448 /* Friend-Prefix.pch */ = {isa = PBXFileReference; path = "Friend-Prefix.pch"; sourceTree = "<group>"; };
-		C598AB8D1575CB9200880448 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C598AB8C1575CB9200880448 /* Friend-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Friend-Prefix.pch"; sourceTree = "<group>"; };
+		C598AB8D1575CB9200880448 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C598AB8E1575CB9200880448 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C598AB911575CB9200880448 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		C598AB931575CB9200880448 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
-		C598AB941575CB9200880448 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		C598AB961575CB9200880448 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		C598AB981575CB9200880448 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		C598AB9A1575CB9300880448 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
-		C598AB9B1575CB9300880448 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		C598AB9D1575CB9300880448 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		C598AB9F1575CB9300880448 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		C598ABA61575CB9300880448 /* FriendTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C598ABA71575CB9300880448 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		C598ABAF1575CB9300880448 /* FriendTests-Info.plist */ = {isa = PBXFileReference; path = "FriendTests-Info.plist"; sourceTree = "<group>"; };
+		C598ABAF1575CB9300880448 /* FriendTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FriendTests-Info.plist"; sourceTree = "<group>"; };
 		C598ABB11575CB9300880448 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C598ABB31575CB9300880448 /* FriendTests.h */ = {isa = PBXFileReference; path = FriendTests.h; sourceTree = "<group>"; };
+		C598ABB31575CB9300880448 /* FriendTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendTests.h; sourceTree = "<group>"; };
 		C598ABB41575CB9300880448 /* FriendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendTests.m; sourceTree = "<group>"; };
+		C598ABBE1575CBE100880448 /* painter-57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "painter-57x57.png"; sourceTree = "<group>"; };
+		C598ABC61575CED500880448 /* CheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckViewController.h; sourceTree = "<group>"; };
+		C598ABC71575CED500880448 /* CheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckViewController.m; sourceTree = "<group>"; };
+		C598ABC91575D13B00880448 /* DeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceViewController.h; sourceTree = "<group>"; };
+		C598ABCA1575D13B00880448 /* DeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceViewController.m; sourceTree = "<group>"; };
+		C598ABCC1575D1B100880448 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		C598ABCD1575D1B100880448 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		C598ABD41575F5BA00880448 /* camera-gray-57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-gray-57x57.png"; sourceTree = "<group>"; };
+		C598ABD61575F5E900880448 /* looking1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = looking1.png; sourceTree = "<group>"; };
+		C598ABD81575F86800880448 /* AddDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddDeviceViewController.h; sourceTree = "<group>"; };
+		C598ABD91575F86800880448 /* AddDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddDeviceViewController.m; sourceTree = "<group>"; };
+		C5A18E2C1576156B007DAEF2 /* find-128x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "find-128x128.png"; sourceTree = "<group>"; };
+		C5A18E2F15762424007DAEF2 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		C5A18E3015762424007DAEF2 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		C5DF8CB215889DE000ED5368 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +101,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5DF8CB315889DE000ED5368 /* CoreBluetooth.framework in Frameworks */,
+				C5281860157CC49B002E46F2 /* QuartzCore.framework in Frameworks */,
 				C598AB7F1575CB9200880448 /* UIKit.framework in Frameworks */,
 				C598AB811575CB9200880448 /* Foundation.framework in Frameworks */,
 				C598AB831575CB9200880448 /* CoreGraphics.framework in Frameworks */,
@@ -111,6 +144,8 @@
 		C598AB7D1575CB9200880448 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C5DF8CB215889DE000ED5368 /* CoreBluetooth.framework */,
+				C528185F157CC49B002E46F2 /* QuartzCore.framework */,
 				C598AB7E1575CB9200880448 /* UIKit.framework */,
 				C598AB801575CB9200880448 /* Foundation.framework */,
 				C598AB821575CB9200880448 /* CoreGraphics.framework */,
@@ -125,14 +160,24 @@
 				C598AB8D1575CB9200880448 /* AppDelegate.h */,
 				C598AB8E1575CB9200880448 /* AppDelegate.m */,
 				C598AB901575CB9200880448 /* MainStoryboard.storyboard */,
-				C598AB931575CB9200880448 /* FirstViewController.h */,
-				C598AB941575CB9200880448 /* FirstViewController.m */,
-				C598AB961575CB9200880448 /* first.png */,
-				C598AB981575CB9200880448 /* first@2x.png */,
-				C598AB9A1575CB9300880448 /* SecondViewController.h */,
-				C598AB9B1575CB9300880448 /* SecondViewController.m */,
-				C598AB9D1575CB9300880448 /* second.png */,
-				C598AB9F1575CB9300880448 /* second@2x.png */,
+				C598ABC61575CED500880448 /* CheckViewController.h */,
+				C598ABC71575CED500880448 /* CheckViewController.m */,
+				C5281861157CCFDC002E46F2 /* CheckScrollView.h */,
+				C5281862157CCFDC002E46F2 /* CheckScrollView.m */,
+				C598ABC91575D13B00880448 /* DeviceViewController.h */,
+				C598ABCA1575D13B00880448 /* DeviceViewController.m */,
+				C598ABD81575F86800880448 /* AddDeviceViewController.h */,
+				C598ABD91575F86800880448 /* AddDeviceViewController.m */,
+				C5A18E2F15762424007DAEF2 /* EditViewController.h */,
+				C5A18E3015762424007DAEF2 /* EditViewController.m */,
+				C598ABCC1575D1B100880448 /* SettingViewController.h */,
+				C598ABCD1575D1B100880448 /* SettingViewController.m */,
+				C5281852157CC472002E46F2 /* Tile.h */,
+				C5281853157CC472002E46F2 /* Tile.m */,
+				C5281854157CC472002E46F2 /* CALayer+Additions.h */,
+				C5281855157CC472002E46F2 /* CALayer+Additions.m */,
+				C5281856157CC472002E46F2 /* NSString+Additions.h */,
+				C5281857157CC472002E46F2 /* NSString+Additions.m */,
 				C598AB851575CB9200880448 /* Supporting Files */,
 			);
 			path = Friend;
@@ -143,8 +188,10 @@
 			children = (
 				C598AB861575CB9200880448 /* Friend-Info.plist */,
 				C598AB871575CB9200880448 /* InfoPlist.strings */,
+				C503219115774C7400F8A84F /* EditView.xib */,
 				C598AB8A1575CB9200880448 /* main.m */,
 				C598AB8C1575CB9200880448 /* Friend-Prefix.pch */,
+				C598ABC01575CBE800880448 /* image */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -166,6 +213,17 @@
 				C598ABB01575CB9300880448 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C598ABC01575CBE800880448 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				C5A18E2C1576156B007DAEF2 /* find-128x128.png */,
+				C598ABBE1575CBE100880448 /* painter-57x57.png */,
+				C598ABD41575F5BA00880448 /* camera-gray-57x57.png */,
+				C598ABD61575F5E900880448 /* looking1.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,10 +299,11 @@
 			files = (
 				C598AB891575CB9200880448 /* InfoPlist.strings in Resources */,
 				C598AB921575CB9200880448 /* MainStoryboard.storyboard in Resources */,
-				C598AB971575CB9200880448 /* first.png in Resources */,
-				C598AB991575CB9300880448 /* first@2x.png in Resources */,
-				C598AB9E1575CB9300880448 /* second.png in Resources */,
-				C598ABA01575CB9300880448 /* second@2x.png in Resources */,
+				C598ABBF1575CBE100880448 /* painter-57x57.png in Resources */,
+				C598ABD51575F5BA00880448 /* camera-gray-57x57.png in Resources */,
+				C598ABD71575F5E900880448 /* looking1.png in Resources */,
+				C5A18E2D1576156B007DAEF2 /* find-128x128.png in Resources */,
+				C503219215774C7400F8A84F /* EditView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,8 +340,15 @@
 			files = (
 				C598AB8B1575CB9200880448 /* main.m in Sources */,
 				C598AB8F1575CB9200880448 /* AppDelegate.m in Sources */,
-				C598AB951575CB9200880448 /* FirstViewController.m in Sources */,
-				C598AB9C1575CB9300880448 /* SecondViewController.m in Sources */,
+				C598ABC81575CED500880448 /* CheckViewController.m in Sources */,
+				C598ABCB1575D13B00880448 /* DeviceViewController.m in Sources */,
+				C598ABCE1575D1B100880448 /* SettingViewController.m in Sources */,
+				C598ABDA1575F86900880448 /* AddDeviceViewController.m in Sources */,
+				C5A18E3115762424007DAEF2 /* EditViewController.m in Sources */,
+				C5281858157CC473002E46F2 /* Tile.m in Sources */,
+				C528185A157CC473002E46F2 /* CALayer+Additions.m in Sources */,
+				C528185C157CC473002E46F2 /* NSString+Additions.m in Sources */,
+				C5281863157CCFDC002E46F2 /* CheckScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +357,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C598ABB51575CB9300880448 /* FriendTests.m in Sources */,
+				C5281859157CC473002E46F2 /* Tile.m in Sources */,
+				C528185B157CC473002E46F2 /* CALayer+Additions.m in Sources */,
+				C528185D157CC473002E46F2 /* NSString+Additions.m in Sources */,
+				C5281864157CCFDC002E46F2 /* CheckScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +408,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -363,6 +434,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -380,6 +452,8 @@
 		C598ABB91575CB9300880448 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Friend/Friend-Prefix.pch";
 				INFOPLIST_FILE = "Friend/Friend-Info.plist";
@@ -391,6 +465,8 @@
 		C598ABBA1575CB9300880448 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Friend/Friend-Prefix.pch";
 				INFOPLIST_FILE = "Friend/Friend-Info.plist";
@@ -452,6 +528,7 @@
 				C598ABBA1575CB9300880448 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C598ABBB1575CB9300880448 /* Build configuration list for PBXNativeTarget "FriendTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +537,7 @@
 				C598ABBD1575CB9300880448 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

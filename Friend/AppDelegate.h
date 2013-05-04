@@ -8,8 +8,25 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@protocol SharedSourceDelegate
 
+-(void)addTile:(NSDictionary *)newObj atIndex:(NSInteger)index;
+-(void)deleteTile:(NSInteger)index;
+
+@end
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate>{
+    
+    NSMutableArray *btPairs;
+    NSString *filePath;
+}
+
+@property (nonatomic, strong) id<SharedSourceDelegate> delegate;
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, strong) NSMutableArray *btPairs;
+@property (nonatomic, strong) NSString *filePath;
+
+-(BOOL)addToBtPairs:(NSDictionary *)obj atIndex:(NSInteger)index;
+-(BOOL)deleteFromBtPairs:(NSInteger)index;
 
 @end
